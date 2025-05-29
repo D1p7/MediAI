@@ -68,7 +68,7 @@ def prever():
     return jsonify(resposta)
 
 if __name__ == '__main__':
-    ngrok.set_auth_token('2Xu7rJiXarrPW0kHcMsnYDEVx3q_6UdytjToSFYxrtotPV9Ur')
+    ngrok.set_auth_token('')
 
     public_url = ngrok.connect(5000)
     print(f' * Porta {public_url}')
